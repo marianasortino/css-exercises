@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Header</title>
-    <link rel="stylesheet" href="style.css">
   </head>
+  <style>
+    .header  {
+  font-family: monospace;
+  background: papayawhip;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  text-decoration: none;
+}
+  </style>
   <body>
     <div class="header">
       <div class="left-links">
